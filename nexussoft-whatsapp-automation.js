@@ -11,8 +11,8 @@ app.use(express.json());
 // ============================================================
 //  ⚙️  CONFIGURAÇÕES DA Z-API — PREENCHA AQUI
 // ============================================================
-const ZAPI_INSTANCE_ID = "SEU_INSTANCE_ID_AQUI"; // Ex: "3B3D1234ABCD"
-const ZAPI_TOKEN       = "SEU_TOKEN_AQUI";        // Ex: "F2k9...token"
+const ZAPI_INSTANCE_ID = "3F2417CBA383B2FC41C94A6398D03DAE";
+const ZAPI_TOKEN       = "0B70F8646E564CE12E765C8A";
 const ZAPI_BASE_URL    = `https://api.z-api.io/instances/${ZAPI_INSTANCE_ID}/token/${ZAPI_TOKEN}`;
 // ============================================================
 
